@@ -1,0 +1,22 @@
+body {
+    background: #817b7b;
+    margin-top: 20px;
+    font-family: arial;
+    color: white;
+}
+.thumbnails img {
+    height: 80px;
+    border: 4px #555 solid;
+    padding: 1px;
+    cursor: pointer;
+    width: 12%;
+}
+.thumbnails img:hover {
+    border: 4px solid #00ccff;
+}
+.preview img {
+    border: 4px #00ccff solid;
+    padding: 1px;
+    height: 400px;
+    width: 65%;
+}

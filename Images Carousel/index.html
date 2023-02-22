@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Connect with .css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Images Slider</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-2">
+        <div class="items">
+          <div class="item active">
+            <img src="Img/pic_1.jpeg">
+          </div>
+          <div class="item">
+            <img src="Img/pic_2.jpeg">
+          </div>
+          <div class="item">
+            <img src="Img/pic_3.jpeg">
+          </div>
+        </div>
+      </div>
+      <div class="col-10">
+        <div class="carousel">
+          <button id="prevBtn"><i class="fas fa-angle-left"></i></button>
+          <button id="nextBtn"><i class="fas fa-angle-right"></i></button>
+          <div class="slides-container">
+            <div class="slide">
+              <img src="Img/pic_1.jpeg">
+            </div>
+            <div class="slide">
+              <img src="Img/pic_2.jpeg">
+            </div>
+            <div class="slide">
+              <img src="Img/pic_3.jpeg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Connect with .js -->
+    <script src="script.js"></script>
+  </body>
+</html>
